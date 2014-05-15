@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="FXMLDocumentController">
+  <children>
+    <TableView layoutX="225.0" layoutY="58.0" prefHeight="311.9999000000025" prefWidth="151.0">
+      <columns>
+        <TableColumn prefWidth="75.0" text="Ime" />
+        <TableColumn prefWidth="75.0" text="Rezultat" />
+      </columns>
+    </TableView>
+    <TextField layoutX="225.0" layoutY="27.0" prefWidth="151.0" text="Top 10" />
+  </children>
+  <effect>
+    <Lighting>
+      <bumpInput>
+        <Shadow />
+      </bumpInput>
+      <light>
+        <javafx.scene.effect.Light.Distant color="#ccedff" />
+      </light>
+    </Lighting>
+  </effect>
+</AnchorPane>
